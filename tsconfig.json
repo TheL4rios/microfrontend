@@ -5,5 +5,9 @@
     "declarationDir": "dist"
   },
   "include": ["src/**/*"],
-  "exclude": ["src/**/*.test*"]
+  "exclude": ["src/**/*.test*"],
+  "baseUrl": "./",
+  "paths": {
+      "@root/*": ["./*"],
+  }
 }
